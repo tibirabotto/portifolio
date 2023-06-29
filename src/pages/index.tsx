@@ -15,10 +15,7 @@ const Home = ({endpoint}: any) => {
   return (
    <motion.div className="flex flex-col flex-grow px-6 pt-1" variants={routeAnimation} initial="initial" animate="animate" exit="exit" >  
     <h6 className="my-3 text-base font-medium">
-        I am currently pursuing B.Tech Degree(Final Year) in Computer Science
-        Engineering from Academy of Technology. I have 3+ years of experience in
-        Web Development and I have a Youtube Channel where I teach Full Stack
-        Web Development
+    To secure a challenging position as a Fullstack Developer where I can utilize my skills, along with my enthusiasm, self-motivation, reliability, responsibility, and strong work ethic, to contribute to the success of the team and the organization. I am dedicated to continuously improving my knowledge and staying up-to-date with the latest trends and best practices in React development to deliver high-quality and efficient solutions. With my excellent problem-solving abilities and collaborative nature, I aim to foster a positive and productive work environment while delivering exceptional results.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
