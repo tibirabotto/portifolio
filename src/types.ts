@@ -22,5 +22,5 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "react";
+export type Category = "react" | "tailwind" | "next";
 
