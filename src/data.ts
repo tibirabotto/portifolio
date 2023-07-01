@@ -92,7 +92,7 @@ export const projects: IProject[] = [
     image_path: "/images/portfolio.png",
     deployed_url: "https://portifolio-tibirabotto.vercel.app/",
     github_url: "https://github.com/tibirabotto/portifolio",
-    category: ["react", "tailwind"],
+    category: ["react", "tailwind", "next"],
     key_techs: ["React", "Tailwind CSS", "Frame Motion"],
   },
   { 
