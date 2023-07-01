@@ -90,8 +90,18 @@ export const projects: IProject[] = [
     description:
       "This app shows my portifolio",
     image_path: "/images/portfolio.png",
-    deployed_url: "https://portifolio-3g7imy18h-tibirabotto.vercel.app//",
+    deployed_url: "https://portifolio-tibirabotto.vercel.app/",
     github_url: "https://github.com/tibirabotto/portifolio",
+    category: ["react", "tailwind"],
+    key_techs: ["React", "Tailwind CSS", "Frame Motion"],
+  },
+  { 
+    name: "Markdown Previewer",
+    description:
+      "This app a tool that takes user input in Markdown format, and displays the converted HTML in real time. ",
+    image_path: "/images/markdown.png",
+    deployed_url: "https://markdown-previewer-tibirabotto.vercel.app/",
+    github_url: "https://github.com/tibirabotto/markdown_previewer",
     category: ["react"],
     key_techs: ["React", "Tailwind CSS", "Frame Motion"],
   }
