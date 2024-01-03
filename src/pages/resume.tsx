@@ -12,17 +12,21 @@ export default function resume() {
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div className="">
             <h5 className="my-2 text-xl font-bold">
-              Computer Science Engineering
+            Software Engineer Technician
             </h5>
-            <p className="font-semibold">Academy of Technology (2017-2021)</p>
-            <p className="my-3">
-              I am currently pursuing B.tech in Computer Science Engineering
-              from Academy of Technology
-            </p>
+            <p className="font-semibold">Centennial College (2021-2023)</p>
+  
+          </div>
+          <div className="">
+            <h5 className="my-2 text-xl font-bold">
+            Full Stack Development
+            </h5>
+            <p className="font-semibold">LightHouse Labs (Oct-2023/Jan-2024)</p>
+  
           </div>
         </motion.div>
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
-          <h5 className="my-3 text-2xl font-bold">Experience</h5>
+          {/* <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div className="">
             <h5 className="my-2 text-xl font-bold">Software Developer</h5>
             <p className="font-semibold">Naja Solucoes (2014-2016)</p>
@@ -39,7 +43,7 @@ export default function resume() {
             <h5 className="my-2 text-xl font-bold">Software Developer</h5>
             <p className="font-semibold">Fortes Tecnologia (2009-2013)</p>
             <p className="my-3">PHP, Ruby on Rails, JQuery, CodeIgniter</p>
-          </div>
+          </div> */}
         </motion.div>
       </div>
 

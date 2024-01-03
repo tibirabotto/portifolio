@@ -1,7 +1,6 @@
 import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
-import { MdDeveloperMode } from "react-icons/md";
 import { Service, Skill, IProject } from "./types";
 
 import { BsCircleFill } from "react-icons/bs";
@@ -95,14 +94,14 @@ export const projects: IProject[] = [
     category: ["react", "tailwind", "next"],
     key_techs: ["React", "Tailwind CSS", "Frame Motion"],
   },
-  { 
-    name: "Markdown Previewer",
-    description:
-      "This app a tool that takes user input in Markdown format, and displays the converted HTML in real time. ",
-    image_path: "/images/markdown.png",
-    deployed_url: "https://markdown-previewer-tibirabotto.vercel.app/",
-    github_url: "https://github.com/tibirabotto/markdown_previewer",
-    category: ["react"],
-    key_techs: ["React", "Tailwind CSS", "Frame Motion"],
-  }
+  // { 
+  //   name: "Markdown Previewer",
+  //   description:
+  //     "This app a tool that takes user input in Markdown format, and displays the converted HTML in real time. ",
+  //   image_path: "/images/markdown.png",
+  //   deployed_url: "https://markdown-previewer-tibirabotto.vercel.app/",
+  //   github_url: "https://github.com/tibirabotto/markdown_previewer",
+  //   category: ["react"],
+  //   key_techs: ["React", "Tailwind CSS", "Frame Motion"],
+  // }
 ];

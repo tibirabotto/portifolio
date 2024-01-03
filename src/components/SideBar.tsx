@@ -25,7 +25,7 @@ export default function SibeBar() {
         FullStack Developer
       </p>
       <a
-        href="/tibira-botto.docx"
+        href="/tibirica-resume.pdf"
         download="tibira-botto"
         target="_BLANK"
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500"

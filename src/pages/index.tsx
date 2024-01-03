@@ -1,17 +1,13 @@
 import {
   GetServerSideProps,
   GetServerSidePropsContext,
-  GetStaticProps,
-  GetStaticPropsContext,
-  NextPage,
 } from "next";
 import {services} from '../data'
 import ServiceCard from '@/components/ServiceCard'
 import {motion} from 'framer-motion'
 import { fadeInUp, routeAnimation, stagger } from '@/animations'
 
-const Home = ({endpoint}: any) => {
-  console.log(endpoint)
+const Home = () => {
   return (
    <motion.div className="flex flex-col flex-grow px-6 pt-1" variants={routeAnimation} initial="initial" animate="animate" exit="exit" >  
     <h6 className="my-3 text-base font-medium">
@@ -27,7 +23,7 @@ const Home = ({endpoint}: any) => {
 
         <motion.div className="grid gap-6 my-3 md:grid-cols-2" variants={stagger} initial="" animate="animate" >
           {/* children's initial and animate property should be same as the parent during a stagger effect  */}
-          {services.map((service) => (
+          {services && services.map((service) => (
             <motion.div
               variants={fadeInUp}
               initial="initial"
@@ -54,8 +50,8 @@ export const getServerSideProps: GetServerSideProps = async (
   // console.log(data)
   return { props: { endpoint: process.env.VERCEL_URL } }
 }
-
-
+//process.env.VERCEL_URL
+//'http://localhost:3000/'
 export default Home;
 
 

@@ -4,6 +4,6 @@ import {services} from '../../data'
 
 
 export default (req:NextApiRequest, res:NextApiResponse) => {
-    console.log(services)
+    //console.log(services)
     res.status(200).json(services)
 }
